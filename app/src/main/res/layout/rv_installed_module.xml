@@ -24,12 +24,4 @@
             android:textSize="@dimen/text_dim"
             android:layout_marginStart="8dp"/>
 
-    <Button
-            android:id="@+id/run_module"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/run_module"
-            android:textSize="@dimen/text_dim"
-            android:layout_marginStart="8dp"/>
-
 </LinearLayout>
