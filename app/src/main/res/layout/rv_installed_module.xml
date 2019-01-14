@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tool="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_dim"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            tool:text="texst"/>
+
+    <Button
+            android:id="@+id/uninstall_module"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uninstall_module"
+            android:textSize="@dimen/text_dim"
+            android:layout_marginStart="8dp"/>
+
+    <Button
+            android:id="@+id/run_module"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/run_module"
+            android:textSize="@dimen/text_dim"
+            android:layout_marginStart="8dp"/>
+
+</LinearLayout>

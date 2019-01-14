@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:dist="http://schemas.android.com/apk/distribution"
+          package="assessment.heartstonegrid.chris.dynamic_feature1"
+          android:isFeatureSplit="true"
+          split = "dynamic_feature1"
+>
+
+    <dist:module
+            dist:onDemand="true"
+            dist:title="@string/title_dynamic_feature1">
+        <dist:fusing dist:include="true"/>
+    </dist:module>
+</manifest>
+

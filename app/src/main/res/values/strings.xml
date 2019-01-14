@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DynamicFeature</string>
+    <string name="installed">Installed</string>
+    <string name="not_installed">Not installed</string>
+    <string name="title_dynamic_feature1">Module 1</string>
+    <string name="title_dynamic_feature2">Module 2</string>
+    <string name="title_dynamic_feature3">Module 3</string>
+    <string name="title_dynamic_featurex">Module X</string>
+    <string name="uninstall_module">Uninstall module</string>
+    <string name="run_module">Run module</string>
+    <string name="install_module">Install Module</string>
+</resources>

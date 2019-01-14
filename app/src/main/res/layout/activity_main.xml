@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/installed"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_installed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_dim"
+                android:text="@string/not_installed"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_not_installed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+        />
+
+</LinearLayout>
+</ScrollView>
